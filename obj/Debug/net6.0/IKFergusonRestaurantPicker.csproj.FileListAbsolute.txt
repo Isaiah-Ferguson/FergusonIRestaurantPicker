@@ -1,0 +1,15 @@
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\bin\Debug\net6.0\IKFergusonRestaurantPicker.exe
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\bin\Debug\net6.0\IKFergusonRestaurantPicker.deps.json
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\bin\Debug\net6.0\IKFergusonRestaurantPicker.runtimeconfig.json
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\bin\Debug\net6.0\IKFergusonRestaurantPicker.dll
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\bin\Debug\net6.0\IKFergusonRestaurantPicker.pdb
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.csproj.AssemblyReference.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.AssemblyInfoInputs.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.AssemblyInfo.cs
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.csproj.CoreCompileInputs.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.dll
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\refint\IKFergusonRestaurantPicker.dll
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.pdb
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\IKFergusonRestaurantPicker.genruntimeconfig.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonRestaurantPicker\obj\Debug\net6.0\ref\IKFergusonRestaurantPicker.dll
