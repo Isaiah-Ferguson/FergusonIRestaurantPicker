@@ -5,6 +5,7 @@
 //reviewed by:
 
 Console.Clear();
+
 string outloopstring = "";
 string input = "";
 string inputfood = "";
@@ -24,14 +25,16 @@ Random Randm = new Random();
 while (outloop == true)
 {
 num2 = Randm.Next();
-
+bool check = true;
 
 Console.WriteLine("Lets eat!");
-Console.WriteLine("What are you feeling like? 'Asian Food', 'Fast Food' or 'Sit Down' restaurants?");
+Console.WriteLine("What are you feeling like? 'Asian Food', 'Fast Food' or 'Sit Down' restaurant?");
 input = Console.ReadLine();
 
 tro = Int32.TryParse(input, out num1);
 
+if (input != "asian food"&& input != "fast food" && input != "sit down"){check = false;}
+if (tro == false){
 if (input == "asian food")
 {
     Console.WriteLine("What kind of asian food 'Pho' or 'Sushi?'");
@@ -45,8 +48,8 @@ switch (1)
     case 1:
     Console.WriteLine($"lets go to {Asian[num2]}");
     break;
-}
-}
+}}
+
 if (inputfood == "sushi")
 {
 num2 = Randm.Next(5, 8);
@@ -56,9 +59,8 @@ switch (1)
     case 1:
     Console.WriteLine($"lets go to {Asian[num2]}");
     break;
-}
-}
-}
+}}}
+
 if (input == "fast food")
 {
     Console.WriteLine("What kind of Fast food 'Burgers' or 'Pizza?'");
@@ -72,8 +74,8 @@ switch (1)
     case 1:
     Console.WriteLine($"Lets get some {fastFood[num2]}");
     break;
-}
-}
+}}
+
 if (inputfood == "pizza")
 {
 num2 = Randm.Next(5, 8);
@@ -83,24 +85,22 @@ switch (1)
     case 1:
     Console.WriteLine($"Lets get some {fastFood[num2]}");
     break;
-}
-}
-}
-if (input == "SitDown")
+}}}
+
+if (input == "sit down")
 {
-        Console.WriteLine("What kind of Fast food 'Dinner' or 'BreakFast?'");
+    Console.WriteLine("What kind of Fast food 'Dinner' or 'BreakFast?'");
     inputfood = Console.ReadLine().ToLower();
 
-if (inputfood == "dinner"){
+if (inputfood == "dinner")
+{
     num2 = Randm.Next(0, 4);
-
 switch (1)
 {
     case 1:
     Console.WriteLine($"Lets go to {SitDown[num2]} since we have some extra time");
     break;
-}
-}
+}}
 if (inputfood == "breakfast")
 {
 num2 = Randm.Next(5, 8);
@@ -110,16 +110,15 @@ switch (1)
     case 1:
     Console.WriteLine($"Lets go to {SitDown[num2]} since we have some extra time");
     break;
-}
-}
-
+}}
 if (tro)
 {
     Console.WriteLine("That was invalid");
     break;
-}
-}
-
+}}}else
+{
+    Console.WriteLine("That wasn't an option");
+} if (check == false){Console.WriteLine("That wasn't an option");}
 Console.WriteLine("Press enter to replay or Type 'End' to quit.");
 outloopstring = Console.ReadLine().ToLower();
 
