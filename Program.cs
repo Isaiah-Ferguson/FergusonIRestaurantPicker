@@ -1,7 +1,7 @@
 ﻿//Isaiah Keith Ferguson
 //10/18/2022
 //Restaurant picker
-//Prompt the user to pick catagories depeneding on the catagorie picked we will display a restaurant
+//Prompt the user to pick catagories depeneding on the catagory picked we will display a restaurant
 //reviewed by:
 
 Console.Clear();
@@ -39,6 +39,10 @@ if (input == "asian food")
 {
     Console.WriteLine("What kind of asian food 'Pho' or 'Sushi?'");
     inputfood = Console.ReadLine().ToLower();
+    if(inputfood != "pho" && inputfood != "sushi")
+    {
+        Console.WriteLine("Did you not listen?? i said Pho or Sushi!! next time listen");
+    }
 
 if (inputfood == "pho"){
     num2 = Randm.Next(0, 4);
@@ -66,6 +70,11 @@ if (input == "fast food")
     Console.WriteLine("What kind of Fast food 'Burgers' or 'Pizza?'");
     inputfood = Console.ReadLine().ToLower();
 
+    if (inputfood != "burgers" && inputfood != "pizza")
+    {
+        Console.WriteLine("My guy that wasn't an option.");
+    }
+    
 if (inputfood == "burgers"){
     num2 = Randm.Next(0, 4);
 
@@ -91,6 +100,11 @@ if (input == "sit down")
 {
     Console.WriteLine("What kind of Fast food 'Dinner' or 'BreakFast?'");
     inputfood = Console.ReadLine().ToLower();
+
+        if (inputfood != "dinner" && inputfood != "breakfast")
+    {
+        Console.WriteLine("you can't here or something mister?!? i said 'Dinner' or 'Breakfast' you nincompoop!");
+    }
 
 if (inputfood == "dinner")
 {
