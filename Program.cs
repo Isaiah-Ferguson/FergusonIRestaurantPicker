@@ -13,14 +13,12 @@ int num1 = 0;
 int num2 = 0;
 bool tro = true;
 bool outloop = true;
+
 string[] Asian = {"Ramen King",  "Legendary Wok", "Pho King", "Phu Lucky", "Fox Creek Soup spot", "Hana Sushi", "Domo's", "Luu's Sushi Bowl", "Tora Sushi", "Fuji Sushi"};
-
 string[] fastFood = {"Mcdonalds", "Five Guys", "Jack N the Box",  "Burger King", "Wendy's", "PizzaHut", "Dominoes", "fired Pizza", "Little Ceaser's", "Costco Pizza"};
-
 string[] SitDown = {"BJ's", "Outback", "Texas RoadHouse", "Chili's", "Olive Garden", "Black Bear Diner", "Mimosa Gourmet", "Chuck's", "HuckleBerries", "IHOP"};
 
 Random Randm = new Random();
-
 
 while (outloop == true)
 {
@@ -29,7 +27,7 @@ bool check = true;
 
 Console.WriteLine("Lets eat!");
 Console.WriteLine("What are you feeling like? 'Asian Food', 'Fast Food' or 'Sit Down' restaurant?");
-input = Console.ReadLine();
+input = Console.ReadLine().ToLower();
 
 tro = Int32.TryParse(input, out num1);
 
@@ -39,9 +37,9 @@ if (input == "asian food")
 {
     Console.WriteLine("What kind of asian food 'Pho' or 'Sushi?'");
     inputfood = Console.ReadLine().ToLower();
-    if(inputfood != "pho" && inputfood != "sushi")
+if(inputfood != "pho" && inputfood != "sushi")
     {
-        Console.WriteLine("Did you not listen?? i said Pho or Sushi!! next time listen");
+    Console.WriteLine("Did you not listen?? i said Pho or Sushi!! next time listen");
     }
 
 if (inputfood == "pho"){
@@ -70,12 +68,12 @@ if (input == "fast food")
     Console.WriteLine("What kind of Fast food 'Burgers' or 'Pizza?'");
     inputfood = Console.ReadLine().ToLower();
 
-    if (inputfood != "burgers" && inputfood != "pizza")
+if(inputfood != "burgers" && inputfood != "pizza")
     {
         Console.WriteLine("My guy that wasn't an option.");
     }
     
-if (inputfood == "burgers"){
+if(inputfood == "burgers"){
     num2 = Randm.Next(0, 4);
 
 switch (1)
